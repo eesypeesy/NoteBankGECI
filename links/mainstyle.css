@@ -102,3 +102,55 @@ footer .social img{
     margin-top: 5px;
     margin-left: 10px;
 }
+
+
+
+/*BEST VIEWED ON MOBILE DIV*/
+/*BEST VIEWED ON MOBILE DIV*/
+/*BEST VIEWED ON MOBILE DIV*/
+/*BEST VIEWED ON MOBILE DIV*/
+/*BEST VIEWED ON MOBILE DIV*/
+/*BEST VIEWED ON MOBILE DIV*/
+/*BEST VIEWED ON MOBILE DIV*/
+/*BEST VIEWED ON MOBILE DIV*/
+
+.pcdisc{
+    width: 20%;
+    position: relative;
+    margin-left: 75%;
+    margin-top: -20%;
+    -moz-animation: cssAnimation 0s ease-in 7s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-out 7s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 7s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-out 7s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+  .pcdisc .text{
+      font-size: 10px;
+    color: rgba(0, 0, 0, 0.363);
+    text-align: center;
+    
+  }
+  @media (max-width:641px){
+    .pcdisc{
+      display: none;
+    }
+  }
