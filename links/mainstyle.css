@@ -44,6 +44,18 @@ body{
 }
 .get .head{
     text-align: center;
-    margin-top: 35%;
+    margin-top: 38%;
     font-weight: 900;
+    cursor: pointer;
+}
+.get .head a{
+    text-decoration: none;
+    color: seagreen;
+}
+.get .head a:hover{
+    color: rgba(136, 0, 0, 0.616);
+    transition: .5s linear;
+}
+.about{
+    text-align: center;
 }
