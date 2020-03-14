@@ -10,9 +10,16 @@ body{
     background: linear-gradient(#ffffff 0%, #018080 100%);
     background-size: 2000% 2000%;
 }
-h1{
-    font-family: 'Bebas Neue', cursive;
+.heading{
     text-align: center;
+    margin-top: -20px;
+}
+.heading h1{
+    font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    color: rgb(165, 4, 4);
+    color: rgb(0, 0, 0);
+}
+.heading h3{
+    margin-top: -45px;
+    color: rgb(177, 0, 0);
 }
