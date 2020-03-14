@@ -84,6 +84,7 @@ footer .copyright{
 }
 
 footer .copyright a{
+    
     text-decoration: none;
     color: rgb(12, 0, 46);
 }
@@ -91,5 +92,4 @@ footer .copyright a{
 
 footer .social img{
     width: 20px;
-
 }
