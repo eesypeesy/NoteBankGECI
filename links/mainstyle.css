@@ -58,4 +58,8 @@ body{
 }
 .about{
     text-align: center;
+    font-size: 13px;
+}
+.about a{
+    text-decoration: none;
 }
