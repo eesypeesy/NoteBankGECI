@@ -63,3 +63,20 @@ body{
 .about a{
     text-decoration: none;
 }
+
+footer{
+    position: relative;
+    margin-top: 70px ;
+    text-align: center;
+    
+}
+footer .copyright{
+    font-size: 10px;
+    font-weight: 900;
+    color: rgb(124, 0, 0);
+}
+
+footer .copyright a{
+    text-decoration: none;
+    color: rgb(12, 0, 46);
+}
