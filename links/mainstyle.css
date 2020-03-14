@@ -82,6 +82,7 @@ footer{
 }
 footer .copyright{
     margin: auto;
+    text-align: center;
     font-size: 10px;
     font-weight: 900;
     color: rgb(124, 0, 0);
