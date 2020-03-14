@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Bebas+Neue|Fredoka+One&display=swap');
+
+
+
+body{
+
+    font-family: 'Barlow', sans-serif;
+    background: rgb(238,174,202);
+    background: linear-gradient(#ffffff 0%, #018080 100%);
+    background-size: 2000% 2000%;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(165, 4, 4);
+}
