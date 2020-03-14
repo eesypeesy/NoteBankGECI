@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Bebas+Neue|Fredoka+One&display=swap');
+
+
+
+body{
+
+    font-family: 'Barlow', sans-serif;
+    background: #ffffff;
+   /* background: linear-gradient(#ffffff 0%, #018080 100%);
+    background-size: 2000% 2000%;
+    */
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.heading h1 a{
+    text-decoration: none;
+    color: black;
+}
+.heading h3{
+    margin-top: -30px;
+    color: rgb(177, 0, 0);
+    font-size: 15px;
+}
+.about{
+    text-align: center;
+    font-size: 11px;
+}
+.about a{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(0, 1, 85);
+}
