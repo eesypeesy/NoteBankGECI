@@ -6,10 +6,9 @@
 body{
 
     font-family: 'Barlow', sans-serif;
-    background: #ffffff;
-   /* background: linear-gradient(#ffffff 0%, #018080 100%);
-    background-size: 2000% 2000%;
-    */
+    /*background: linear-gradient(#ffffff 50%, #a0007d 100%);
+    background-size: 200% 200%;*/
+    
 }
 .heading{
     text-align: center;
@@ -24,6 +23,9 @@ body{
     margin-top: -45px;
     color: rgb(177, 0, 0);
 }
+
+
+
 
 .container{
     text-align: center;
@@ -45,7 +47,9 @@ body{
     
 }
 .box:hover{
-    border-color: rgba(114, 0, 0, 0.733);    
+    border-color: rgba(114, 0, 0, 0.733);  
+    background: rgb(255, 255, 255);
+    transition: .5s linear;  
 }
 .get .head{
     text-align: center;
@@ -75,7 +79,6 @@ footer{
     position: relative;
     margin-top: 50px ;
     height: 100px;
-    background: rgba(165, 165, 165, 0.418);
     display: flex;
     flex-direction: column;
     
@@ -145,12 +148,78 @@ footer .social img{
 }
   .pcdisc .text{
       font-size: 10px;
-    color: rgba(0, 0, 0, 0.363);
+    color: rgba(0, 0, 0, 0.705);
     text-align: center;
     
   }
-  @media (max-width:641px){
-    .pcdisc{
-      display: none;
-    }
+  
+  @media (min-width:320px)  { 
+      /* smartphones, iPhone, portrait 480x320 phones */ 
+      .pcdisc{
+        display: none;
+      }
+      .parse{
+          position: absolute;
+      }
+      .parse img{
+          width: 300px;
+          margin-top: 30%;
+          margin-left: -20%;
+      }  
   }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .pcdisc{
+        display: none;
+      }
+      #parse{
+          position: absolute;
+      }
+      #parse img{
+          width: 200px;
+          margin-top: 30%;
+          margin-left: 20%;
+      }  
+  }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .pcdisc{
+        display: none;
+      }
+      .parse{
+          position: absolute;
+      }
+      .parse img{
+          width: 300px;
+          margin-top: 30%;
+          margin-left: 30%;
+      }  
+  }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    
+      .parse{
+          position: absolute;
+      }
+      .parse img{
+          width: 400px;
+          margin-top: 20%;
+          margin-left: 20%;
+      }  
+  }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .parse{
+        position: absolute;
+    }
+    .parse img{
+        width: 500px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }  }
+@media (min-width:1281px){
+    .parse{
+        position: absolute;
+    }
+    .parse img{
+        width: 600px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }  
+}
