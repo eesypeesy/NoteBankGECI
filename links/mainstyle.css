@@ -159,6 +159,7 @@ footer .social img{
         display: none;
       }
       .parse{
+          pointer-events: none;
           position: absolute;
       }
       .parse img{
@@ -172,10 +173,11 @@ footer .social img{
     .pcdisc{
         display: none;
       }
-      #parse{
+      .parse{
           position: absolute;
+          pointer-events: none;
       }
-      #parse img{
+      .parse img{
           width: 200px;
           margin-top: 30%;
           margin-left: 20%;
@@ -188,6 +190,7 @@ footer .social img{
       }
       .parse{
           position: absolute;
+          pointer-events: none;
       }
       .parse img{
           width: 300px;
@@ -199,6 +202,7 @@ footer .social img{
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     
       .parse{
+          pointer-events: none;
           position: absolute;
       }
       .parse img{
