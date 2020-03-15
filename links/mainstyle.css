@@ -165,6 +165,7 @@ footer .social img{
           width: 200px;
           margin-top: 70%;
           margin-left: -10%;
+          background: transparent;
       }  
   }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
@@ -178,6 +179,8 @@ footer .social img{
           width: 200px;
           margin-top: 30%;
           margin-left: 20%;
+          background: transparent;
+
       }  
   }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
@@ -191,6 +194,8 @@ footer .social img{
           width: 300px;
           margin-top: 30%;
           margin-left: 30%;
+          background: transparent;
+
       }  
   }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
