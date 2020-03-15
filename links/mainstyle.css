@@ -162,9 +162,9 @@ footer .social img{
           position: absolute;
       }
       .parse img{
-          width: 300px;
-          margin-top: 30%;
-          margin-left: -20%;
+          width: 200px;
+          margin-top: 70%;
+          margin-left: -10%;
       }  
   }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
