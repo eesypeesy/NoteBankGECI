@@ -166,7 +166,7 @@ footer .social img{
           width: 400px;
           margin-top: 55%;
           margin-left: -40%;
-        opacity: 90%;
+        opacity: 70%;
         pointer-events: none;
       }  
   }
@@ -231,8 +231,9 @@ footer .social img{
     }
     .parse img{
         width: 700px;
-        margin-top: 10%;
+        margin-top: -5%;
         margin-left: -10%;
-        opacity: 90%;
+        opacity: 70%;
     }  
+    
 }
