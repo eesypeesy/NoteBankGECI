@@ -163,9 +163,9 @@ footer .social img{
           position: absolute;
       }
       .parse img{
-          width: 200px;
-          margin-top: 70%;
-          margin-left: -10%;
+          width: 400px;
+          margin-top: 55%;
+          margin-left: -40%;
         opacity: 90%;
         pointer-events: none;
       }  
@@ -179,9 +179,9 @@ footer .social img{
           pointer-events: none;
       }
       .parse img{
-          width: 200px;
+          width: 500px;
           margin-top: 30%;
-          margin-left: 20%;
+          margin-left: -40%;
         opacity: 90%;
         pointer-events: none;
       }  
@@ -195,9 +195,9 @@ footer .social img{
           pointer-events: none;
       }
       .parse img{
-          width: 300px;
+          width: 600px;
           margin-top: 30%;
-          margin-left: 30%;
+          margin-left: -30%;
         opacity: 90%;
         pointer-events: none;
       }  
@@ -209,10 +209,10 @@ footer .social img{
           position: absolute;
       }
       .parse img{
-          width: 400px;
+          width: 600px;
           margin-top: 20%;
         opacity: 90%;
-        margin-left: 20%;
+        margin-left: -30%;
       }  
   }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
@@ -220,19 +220,19 @@ footer .social img{
         position: absolute;
     }
     .parse img{
-        width: 500px;
+        width: 700px;
         margin-top: 10%;
         opacity: 90%;
-        margin-left: 10%;
+        margin-left: -20%;
     }  }
 @media (min-width:1281px){
     .parse{
         position: absolute;
     }
     .parse img{
-        width: 600px;
+        width: 700px;
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: -10%;
         opacity: 90%;
     }  
 }
