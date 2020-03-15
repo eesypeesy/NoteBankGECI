@@ -38,7 +38,33 @@ body{
     color: rgb(0, 1, 85);
 }
 
+.wasend{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgba(0, 125, 156, 0.411);
+}
+.wasend .heading{
+    font-weight: 900;
+}
+.wasend .detail{
+    font-size: 10px;
+}
 
+
+
+.toscript{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.toscript img{
+    width: 40px;
+}
+.toscript .text{
+    font-size: 10px;
+}
 
 
 
