@@ -163,9 +163,9 @@ footer .social img{
           position: absolute;
       }
       .parse img{
-          width: 350px;
-          margin-top: 55%;
-          margin-left: -40%;
+          width: 300px;
+          margin-top: 85%;
+          margin-left: -30%;
         opacity: 70%;
         pointer-events: none;
       }  
