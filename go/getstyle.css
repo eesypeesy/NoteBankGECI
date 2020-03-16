@@ -38,14 +38,17 @@ body{
     color: rgb(0, 1, 85);
 }
 
-
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+}
 
 .box{
     margin: auto;
     box-sizing: border-box;
     margin-top: 30px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background: #c0c0c05e;
     border-style: solid; 
@@ -53,14 +56,64 @@ body{
     
 }
 .box:hover{
-    border-color: rgba(114, 0, 0, 0.733);  
+    border-color: #adadad;  
     background: #940000;
-    transition:  transform .3s;
-    transform: rotateY(180deg);  
+    transition:  .3s;
+}
+/*the color of the dept name is same as
+ that of the color of box on hover.
+ so on hovering,the box will rotate,
+ and it will seem like the
+ name is on the back side of the circle*/
+
+.box .dept{
+    position: relative;
+    margin-left: 45px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #940000;
+    font-weight: bold;
+    pointer-events: none;
 }
 
+.box .yearselect{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #940000;
+    font-weight: bold;
+}
+.hidebox{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -53px;
+    margin-left: -3px;
+    opacity: 0;
+/*opacity- 0 means we cannot
+ see the div there*/
+}
+.hidebox:hover{
+    opacity: 1;/*on hover, the boxes appear*/
+    transition: .5s;
+}
 
+.smallbox{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-left: 7px;
+    margin-top: 40px;
+    border-radius: 7px;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
 
+}
+.smallbox a{
+    color: seashell;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 13px;
+}
 
 
 

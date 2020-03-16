@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Barlow|Bebas+Neue|Fredoka+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
 
 
 body{
@@ -68,6 +68,7 @@ body{
 .about{
     text-align: center;
     font-size: 11px;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 .about a{
     text-decoration: none;
