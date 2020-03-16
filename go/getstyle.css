@@ -40,6 +40,39 @@ body{
 
 
 
+.box{
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #c0c0c05e;
+    border-style: solid; 
+    border-color: rgba(0, 0, 109, 0.692);   
+    
+}
+.box:hover{
+    border-color: rgba(114, 0, 0, 0.733);  
+    background: #940000;
+    transition:  transform .3s;
+    transform: rotateY(180deg);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     position: relative;
     margin-top: 50px ;
