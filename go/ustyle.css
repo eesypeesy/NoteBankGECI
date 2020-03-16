@@ -3,13 +3,23 @@
 
 
 
-body{
+html,body{
 
     font-family: 'Barlow', sans-serif;
     background: #ffffff;
    /* background: linear-gradient(#ffffff 0%, #018080 100%);
     background-size: 2000% 2000%;
     */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.homeicon{
+    position: absolute;
+}
+.homeicon img{
+    width: 28px;
+    margin-left: 20px;
+    margin-top: 7px;
 }
 .heading{
     text-align: center;
@@ -102,4 +112,141 @@ footer .social img{
     width: 20px;
     margin-top: 5px;
     margin-left: 10px;
+}
+@media (min-width:320px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    
+    .parse{
+        pointer-events: none;
+        position: absolute;
+    }
+    .parse img{
+        width: 400px;
+        margin-top: 70%;
+        margin-left: 30%;
+        opacity: 90%;
+    }  
+    .parse2{
+        pointer-events: none;
+        position: absolute;
+    }
+    .parse2 img{
+        width: 300px;
+        margin-top: 590px;
+        margin-left: -50%;
+      opacity: 90%;
+    }  
+    
+    
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  
+    .parse{
+        position: absolute;
+        pointer-events: none;
+    }
+    .parse img{
+        width: 400px;
+        margin-top: 65%;
+        margin-left: 50%;
+      opacity: 90%;
+      pointer-events: none;
+    }  
+    .parse2{
+        pointer-events: none;
+        position: absolute;
+    }
+    .parse2 img{
+        width: 300px;
+        margin-top: 590px;
+        margin-left: -30%;
+      opacity: 90%;
+    }  
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  
+    .parse{
+        position: absolute;
+        pointer-events: none;
+    }
+    .parse img{
+        width: 400px;
+        margin-top: -10%;
+        margin-left: 80%;
+      opacity: 70%;
+    }  
+    .parse2{
+        pointer-events: none;
+        position: absolute;
+    }
+    .parse2 img{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: -10%;
+      opacity: 50%;
+    }  
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  
+    .parse{
+        pointer-events: none;
+        position: absolute;
+    }
+    .parse img{
+        width: 400px;
+        margin-top: -40px;
+        margin-left: 550px;
+      opacity: 70%;
+    }  
+    .parse2{
+        pointer-events: none;
+        position: absolute;
+    }
+    .parse2 img{
+        width: 300px;
+        margin-top: 230px;
+        margin-left: 10%;
+      opacity: 90%;
+    }  
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .parse{
+      position: absolute;
+  }
+  .parse img{
+      width: 400px;
+      margin-top: -5%;
+      opacity: 90%;
+      margin-left: 700px;
+  } .parse2{
+    pointer-events: none;
+    position: absolute;
+}
+.parse2 img{
+    width: 300px;
+    margin-top: 230px;
+    margin-left: 10%;
+  opacity: 90%;
+} 
+}  
+@media (min-width:1281px){
+    .parse{
+        position: absolute;
+    }
+    .parse img{
+        width: 400px;
+        margin-top: -5%;
+        opacity: 90%;
+        margin-left: 850px;
+    } .parse2{
+      pointer-events: none;
+      position: absolute;
+  }
+  .parse2 img{
+      width: 300px;
+      margin-top: 230px;
+      margin-left: 10%;
+    opacity: 90%;
+  } 
+  
 }
