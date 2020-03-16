@@ -49,38 +49,32 @@ body{
     margin-top: 30px;
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 10%;
     background: #c0c0c05e;
-    border-style: solid; 
-    border-color: rgba(0, 0, 109, 0.692);   
+    display: flex;
+    flex-direction: column;
     
 }
 .box:hover{
     border-color: #adadad;  
-    background: #940000;
+    background: #95e1e67a;
     transition:  .3s;
 }
-/*the color of the dept name is same as
- that of the color of box on hover.
- so on hovering,the box will rotate,
- and it will seem like the
- name is on the back side of the circle*/
 
 .box .dept{
+    margin: auto;
     position: relative;
-    margin-left: 45px;
     font-size: 25px;
-    margin-top: 20px;
-    color: #940000;
+    margin-top: 10px;
+    color: #940000c4;
     font-weight: bold;
     pointer-events: none;
 }
 
-.box .yearselect{
-    margin-top: 5px;
-    margin-left: 20px;
-    color: #940000;
+.box .yearselect{margin: auto;
+    color: #252525;
     font-weight: bold;
+    font-size: 10px;
 }
 .hidebox{
     width: 120px;
@@ -88,37 +82,38 @@ body{
     border-radius: 50%;
     margin-top: -53px;
     margin-left: -3px;
-    pointer-events: none;
-    opacity: 0;
-/*opacity- 0 means we cannot
- see the div there*/
+    
 }
-.hidebox:hover{
-    opacity: 1;/*on hover, the boxes appear*/
-    transition: .5s;
-    pointer-events: all;
-}
+
 
 .smallbox{
     display: inline-block;
     width: 19px;
     height: 19px;
-    margin-left: 7px;
-    margin-top: 40px;
+    margin-left: 8px;
+    margin-top: 80px;
     border-radius: 7px;
-    background: rgb(0, 0, 0);
+    background: #940000c9;
     cursor: pointer;
 
 }
 .smallbox a{
+    position: relative;
     color: seashell;
     text-decoration: none;
-    margin-left: 5px;
-    font-size: 13px;
+    margin-left: 6px;
+    font-size: 12px;
 }
 
 
-
+@media (min-width:641px){
+    /*the circles will be in row for big screens,
+    utilising max screen space*/
+    .maincontainer{
+        flex-direction: row;
+    }
+    
+}
 
 
 
