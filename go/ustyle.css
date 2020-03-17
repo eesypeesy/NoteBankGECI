@@ -6,12 +6,21 @@
 html,body{
 
     font-family: 'Barlow', sans-serif;
-    background: #ffffff;
+    background: #79ebffd0;
    /* background: linear-gradient(#ffffff 0%, #018080 100%);
     background-size: 2000% 2000%;
     */
     max-width: 100%;
     overflow-x: hidden;
+}
+.rect{
+    width: 100%;
+    height: 150px;
+    margin-top: -20px;
+
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.219);
+    background: rgb(255, 255, 255);
 }
 .homeicon{
     position: absolute;
@@ -19,10 +28,11 @@ html,body{
 .homeicon img{
     width: 28px;
     margin-left: 20px;
-    margin-top: 28px;
+    margin-top: 8px;
 }
 .heading{
     text-align: center;
+    
 }
 .heading h1{
     font-family: 'Bebas Neue', cursive;
@@ -47,14 +57,30 @@ html,body{
     font-weight: 900;
     color: rgb(0, 1, 85);
 }
+.maincontainer{
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.295);
+}
 
 .wasend{
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
     background-color: rgba(0, 125, 156, 0.411);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    width: 90%;
 }
 .wasend .heading{
+    margin-top: 5px;
     font-weight: 900;
 }
 .wasend .detail{
@@ -65,6 +91,7 @@ html,body{
 
 .toscript{
     margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -81,28 +108,28 @@ html,body{
 
 
 
-
 footer{
     position: relative;
-    margin-top: 50px ;
+    margin-top: 10px ;
     height: 100px;
-    background: rgba(165, 165, 165, 0.418);
     display: flex;
+    background: rgb(29, 29, 29);
     flex-direction: column;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.295);
     
 }
 footer .copyright{
     margin: auto;
     text-align: center;
     font-size: 10px;
-    font-weight: 900;
-    color: rgb(124, 0, 0);
 }
 
 footer .copyright a{
     
     text-decoration: none;
-    color: rgb(12, 0, 46);
+    color: rgb(163, 130, 252);
 }
 footer .social{
     margin: auto;
@@ -112,141 +139,4 @@ footer .social img{
     width: 20px;
     margin-top: 5px;
     margin-left: 10px;
-}
-@media (min-width:320px)  { 
-    /* smartphones, iPhone, portrait 480x320 phones */ 
-    
-    .parse{
-        pointer-events: none;
-        position: absolute;
-    }
-    .parse img{
-        width: 400px;
-        margin-top: 70%;
-        margin-left: 30%;
-        opacity: 90%;
-    }  
-    .parse2{
-        pointer-events: none;
-        position: absolute;
-    }
-    .parse2 img{
-        width: 300px;
-        margin-top: 590px;
-        margin-left: -50%;
-      opacity: 90%;
-    }  
-    
-    
-}
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-  
-    .parse{
-        position: absolute;
-        pointer-events: none;
-    }
-    .parse img{
-        width: 400px;
-        margin-top: 65%;
-        margin-left: 50%;
-      opacity: 90%;
-      pointer-events: none;
-    }  
-    .parse2{
-        pointer-events: none;
-        position: absolute;
-    }
-    .parse2 img{
-        width: 300px;
-        margin-top: 590px;
-        margin-left: -30%;
-      opacity: 90%;
-    }  
-}
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-  
-    .parse{
-        position: absolute;
-        pointer-events: none;
-    }
-    .parse img{
-        width: 400px;
-        margin-top: -10%;
-        margin-left: 80%;
-      opacity: 70%;
-    }  
-    .parse2{
-        pointer-events: none;
-        position: absolute;
-    }
-    .parse2 img{
-        width: 200px;
-        margin-top: 20px;
-        margin-left: -10%;
-      opacity: 50%;
-    }  
-}
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-  
-    .parse{
-        pointer-events: none;
-        position: absolute;
-    }
-    .parse img{
-        width: 400px;
-        margin-top: -40px;
-        margin-left: 550px;
-      opacity: 70%;
-    }  
-    .parse2{
-        pointer-events: none;
-        position: absolute;
-    }
-    .parse2 img{
-        width: 300px;
-        margin-top: 230px;
-        margin-left: 10%;
-      opacity: 90%;
-    }  
-}
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-  .parse{
-      position: absolute;
-  }
-  .parse img{
-      width: 400px;
-      margin-top: -5%;
-      opacity: 90%;
-      margin-left: 700px;
-  } .parse2{
-    pointer-events: none;
-    position: absolute;
-}
-.parse2 img{
-    width: 300px;
-    margin-top: 230px;
-    margin-left: 10%;
-  opacity: 90%;
-} 
-}  
-@media (min-width:1281px){
-    .parse{
-        position: absolute;
-    }
-    .parse img{
-        width: 400px;
-        margin-top: -5%;
-        opacity: 90%;
-        margin-left: 850px;
-    } .parse2{
-      pointer-events: none;
-      position: absolute;
-  }
-  .parse2 img{
-      width: 300px;
-      margin-top: 230px;
-      margin-left: 10%;
-    opacity: 90%;
-  } 
-  
 }
