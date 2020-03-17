@@ -44,6 +44,7 @@ html,body{
     font-size: 15px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.295);
+    -webkit-tap-highlight-color: transparent;
 
 }
 
@@ -59,6 +60,7 @@ html,body{
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.315);
     cursor: pointer;
     font-size: 15px;
+    -webkit-tap-highlight-color: transparent;
 
     
 }
@@ -87,6 +89,8 @@ html,body{
 .box a{
     text-decoration: none;
     color: seagreen;
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 .about{
