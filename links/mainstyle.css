@@ -6,7 +6,8 @@
 html,body{
 
     font-family: 'Barlow', sans-serif;
-    background: #ffffff;
+    background: rgba(250, 218, 74, 0.699);
+
    /* background: linear-gradient(#ffffff 0%, #018080 100%);
     background-size: 2000% 2000%;
     */
@@ -18,12 +19,11 @@ html,body{
     height: 180px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.219);
-    background: rgba(109, 174, 235, 0.274);
-
+    background: rgb(255, 255, 255);
 }
 .heading{
     text-align: center;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 .heading h1{
     font-family: 'Bebas Neue', cursive;
@@ -32,24 +32,31 @@ html,body{
 }
 .heading h3{
     margin-top: -45px;
-    color: rgb(177, 0, 0);
+    color: rgb(184, 0, 0);
 }
 .container{
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
     font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.295);
+
 }
 
 .box{
     margin: auto;
     box-sizing: border-box;
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 100px;
     height: 100px;
     border-radius: 10%;
-    background: #c0c0c036;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.158);
+    background: #f1f1f1;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.315);
     cursor: pointer;
     font-size: 15px;
 
@@ -57,25 +64,30 @@ html,body{
 }
 .box:hover{
     border-color: rgba(114, 0, 0, 0.733);  
-    background: rgba(149, 191, 216, 0.493);
+    background: #f3f3f3;
     transition: .3s linear;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.226);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.521);
     font-size: 14.5px;
     
 }
+/* the below box(.get) acts like a duplicate of the above one to receive the click*/
+.get{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    background: rgba(220, 20, 60, 0);/*this makes the opacity of the box 0, but not the text above it*/
+    display: flex;
+    
+}
 .get .head{
-    text-align: center;
-    margin-top: 30%;
+    margin:auto;
     font-weight: 900;
 }
-.get .head a{
+.box a{
     text-decoration: none;
     color: seagreen;
 }
-.get .head a:hover{
-    color: rgba(136, 0, 0, 0.616);
-    transition: .5s linear;
-}
+
 .about{
     text-align: center;
     margin-left: 10px;
@@ -90,24 +102,25 @@ html,body{
 
 footer{
     position: relative;
-    margin-top: 50px ;
+    margin-top: 10px ;
     height: 100px;
     display: flex;
+    background: rgb(29, 29, 29);
     flex-direction: column;
-    
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
 footer .copyright{
     margin: auto;
     text-align: center;
     font-size: 10px;
-    font-weight: 900;
-    color: rgb(124, 0, 0);
+    font-weight: 500;
 }
 
 footer .copyright a{
     
     text-decoration: none;
-    color: rgb(12, 0, 46);
+    color: rgb(121, 72, 255);
 }
 footer .social{
     margin: auto;
@@ -121,16 +134,15 @@ footer .social img{
 
 .parse{
     animation-name: move;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
 @keyframes move {
     from{
-        transform: translateX(-3px);
+        transform: translateY(-2px);
     }
     to{
-        transform: translateX(3px);
     }
 }
 
@@ -190,7 +202,7 @@ footer .social img{
       }
       .parse img{
           width: 300px;
-          margin-top: 85%;
+          margin-top: 65%;
           margin-left: -30%;
         opacity: 70%;
         pointer-events: none;
@@ -206,8 +218,8 @@ footer .social img{
           pointer-events: none;
       }
       .parse img{
-          width: 500px;
-          margin-top: 30%;
+          width: 400px;
+          margin-top: 25%;
           margin-left: -40%;
         opacity: 90%;
         pointer-events: none;
@@ -222,9 +234,9 @@ footer .social img{
           pointer-events: none;
       }
       .parse img{
-          width: 600px;
-          margin-top: 30%;
-          margin-left: -30%;
+          width: 500px;
+          margin-top: 15%;
+          margin-left: -25%;
         opacity: 90%;
         pointer-events: none;
       }  
@@ -236,10 +248,10 @@ footer .social img{
           position: absolute;
       }
       .parse img{
-          width: 600px;
-          margin-top: 20%;
+          width: 500px;
+          margin-top: 15%;
         opacity: 90%;
-        margin-left: -30%;
+        margin-left: -10%;
       }  
   }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
@@ -247,18 +259,18 @@ footer .social img{
         position: absolute;
     }
     .parse img{
-        width: 700px;
-        margin-top: 10%;
+        width: 600px;
+        margin-top: 0%;
         opacity: 90%;
-        margin-left: -20%;
+        margin-left: -10%;
     }  }
 @media (min-width:1281px){
     .parse{
         position: absolute;
     }
     .parse img{
-        width: 700px;
-        margin-top: -5%;
+        width: 550px;
+        margin-top: 5%;
         margin-left: -10%;
         opacity: 70%;
     }  

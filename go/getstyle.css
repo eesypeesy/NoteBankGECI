@@ -6,12 +6,19 @@
 html,body{
 
     font-family: 'Barlow', sans-serif;
-    background: #ffffff;
+    background: #c7ec3f;
    /* background: linear-gradient(#ffffff 0%, #018080 100%);
     background-size: 2000% 2000%;
     */
     max-width: 100%;
     overflow-x: hidden;
+}
+.rect{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.219);
+    background: rgb(255, 255, 255);
 }
 .homeicon{
     position: absolute;
@@ -19,7 +26,7 @@ html,body{
 .homeicon img{
     width: 28px;
     margin-left: 20px;
-    margin-top: 28px;
+    margin-top: 8px;
 }
 .heading{
     text-align: center;
@@ -49,14 +56,22 @@ html,body{
 }
 
 .maincontainer{
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.295);
 }
 
 .box{
     margin: auto;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 120px;
     height: 120px;
     border-radius: 10%;
@@ -67,11 +82,7 @@ html,body{
 
     
 }
-.box:hover{
-    border-color: #adadad;  
-    background: #95e1e67a;
-    transition:  .3s;
-}
+
 
 .box .dept{
     margin: auto;
@@ -108,9 +119,13 @@ html,body{
     cursor: pointer;
 
 }
-.smallbox a{
+.smallbox:hover{
+    background: rgb(255, 0, 51);
+}
+.smallbox p{
     position: relative;
     text-align: center;
+    margin-top: 2px;
     color: seashell;
     text-decoration: none;
     font-size: 12px;
@@ -163,24 +178,26 @@ html,body{
 
 footer{
     position: relative;
-    margin-top: 50px ;
+    margin-top: 10px ;
     height: 100px;
     display: flex;
+    background: rgb(29, 29, 29);
     flex-direction: column;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
     
 }
 footer .copyright{
     margin: auto;
     text-align: center;
     font-size: 10px;
-    font-weight: 900;
-    color: rgb(124, 0, 0);
+    font-weight: 500;
 }
 
 footer .copyright a{
     
     text-decoration: none;
-    color: rgb(12, 0, 46);
+    color: rgb(133, 91, 250);
 }
 footer .social{
     margin: auto;
@@ -200,9 +217,9 @@ footer .social img{
         position: absolute;
     }
     .parse img{
-        width: 400px;
-        margin-top: 40%;
-        margin-left: 30%;
+        width: 200px;
+        margin-top: 100%;
+        margin-left: 100%;
         opacity: 90%;
     }  
     .parse2{
@@ -210,9 +227,9 @@ footer .social img{
         position: absolute;
     }
     .parse2 img{
-        width: 300px;
+        width: 250px;
         margin-top: 590px;
-        margin-left: -50%;
+        margin-left: -40%;
       opacity: 90%;
     }  
     
@@ -225,11 +242,10 @@ footer .social img{
         pointer-events: none;
     }
     .parse img{
-        width: 400px;
-        margin-top: 40%;
-        margin-left: 50%;
-      opacity: 90%;
-      pointer-events: none;
+        width: 300px;
+        margin-top: 100%;
+        margin-left: 60%;
+        opacity: 90%;
     }  
     .parse2{
         pointer-events: none;
