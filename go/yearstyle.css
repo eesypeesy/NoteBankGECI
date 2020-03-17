@@ -6,7 +6,7 @@
 html,body{
 
     font-family: 'Barlow', sans-serif;
-    background: rgb(92, 4, 207);
+    background: rgba(92, 4, 207, 0.336);
 
    /* background: linear-gradient(#ffffff 0%, #018080 100%);
     background-size: 2000% 2000%;
