@@ -94,7 +94,6 @@ hr{
 .bag{
     margin-top: 10px;
     margin-bottom: 20px;
-    display: flex;
     flex-direction: row;
     font-size: 12px;
 }
@@ -111,6 +110,7 @@ hr{
 
 }
 .bag .number2{
+    margin-top: 5px;
     font-weight: 600;
     font-size: 11px;
     flex: 1;
