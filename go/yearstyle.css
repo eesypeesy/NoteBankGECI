@@ -115,6 +115,27 @@ body{
     cursor: pointer;
 
 }
+.smallbox2{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background: #3b9400c9;
+    cursor: pointer;
+
+}
+.smallbox2:hover{
+    background: rgb(255, 0, 51);
+}
+.smallbox2 p{
+    position: relative;
+    text-align: center;
+    margin-top: 2px;
+    color: seashell;
+    text-decoration: none;
+    font-size: 12px;
+}
 .smallbox:hover{
     background: rgb(255, 0, 51);
 }
