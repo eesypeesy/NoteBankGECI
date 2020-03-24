@@ -57,7 +57,7 @@ body{
     height: 100px;
     border-radius: 10%;
     background: #ffffff;
-    box-shadow: 0px 10px 20px rgba(128, 131, 133, 0.356) ;
+    box-shadow: 0px 5px 13px rgba(128, 131, 133, 0.267) ;
     cursor: pointer;
     font-size: 15px;
     -webkit-tap-highlight-color: transparent;
