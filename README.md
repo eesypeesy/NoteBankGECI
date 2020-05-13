@@ -1,5 +1,5 @@
 # NoteBankGECI
-a platform where students of KTU can upload or view module wise notes,question paper etc. Specifically made to tackle the lack of tutorial hours problem due to College shut downs(covid19issue)
+a platform where students of KTU can upload or view module wise notes,question paper etc. Specifically made to tackle the lack of tutorial hours problem due to College shut downs(covid19issue) <br>
 Planning to rebuild the app using React.
 
 preview at : https://notebank.netlify.com
